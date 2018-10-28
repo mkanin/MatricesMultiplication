@@ -1,15 +1,23 @@
+"""
+Main class of matrix.
+"""
 class Matrix(object):
-    """Main class of matrix.
-
+    
+    """
     :param matrix: matrix
     :type matrix: numpy.array
     :param name: name of matrix
     :type name: str
     """
-    def __init__(self, matrix, name):
+    def __init__(self, matrix, name = "Matrix"):
         self.matrix = matrix
         self.name = name
-
+    
+    """
+    Test size of matrix.
+    The matrix should be square. If the size of matrix is incorrect,
+    this method throws an exception ValueError.
+    """
     def test_size(self):
         size = self.matrix.shape
         if size[0] == 0 or size[1] == 0:

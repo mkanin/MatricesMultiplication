@@ -1,6 +1,11 @@
+import numpy
+
+"""
+This class checks size of two matrices and comapres its shape.
+"""
 class MatrixChecker(object):
-    """Checks size of two matrices and compares its shape.
     
+    """
     :param matrix_a: the first matrix
     :type matrix_a: numpy.array
     :param matrix_b: the second matrix
