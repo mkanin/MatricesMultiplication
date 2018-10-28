@@ -105,7 +105,7 @@ def string_matrix(matrix):
     return output_str
 
 def string_matrix_format(matrix, name, message):
-    output_str = "{_message} {_name}:\n{_matrix}".format(_message = message, _name = name, _matrix = string_matrix(matrix))
+    output_str = "{_message} \"{_name}\":\n{_matrix}".format(_message = message, _name = name, _matrix = string_matrix(matrix))
     return output_str
 
 def string_output_format_for_all_matrices(matrix_a, matrix_b, matrix_c, matrix_cr, matrix_crs):
@@ -113,9 +113,9 @@ def string_output_format_for_all_matrices(matrix_a, matrix_b, matrix_c, matrix_c
     str_output_matrix = "Output matrix"
     name_a = "A"
     name_b = "B"
-    name_c = "C"
-    name_cr = "CR"
-    name_crs = "CRS"
+    name_c = "Classical approach"
+    name_cr = "Recursive approach"
+    name_crs = "Recursive Strassen\'s algorithm"
     str_a = string_matrix_format(matrix_a, name_a, str_input_matrix)
     str_b = string_matrix_format(matrix_b, name_b, str_input_matrix)
     str_c = string_matrix_format(matrix_c, name_c, str_output_matrix)
