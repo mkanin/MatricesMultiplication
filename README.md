@@ -1,5 +1,5 @@
 # matrices-multiplication
-This is a program for getting results of square matrices multiplication by using the different approaches, classical approach and more advanced method of multiplication, such as "Divide and Conquer", and its two version of implementation - classical recursive method and Strassen's algorithm.
+This is a program for getting results of square matrices multiplication by using the different approaches, classical approach and more advanced method of multiplication, such as "Divide and Conquer", and its two version of implementation - simple recursive method and Strassen's recursive algorithm.
 
 Reference
 
