@@ -132,13 +132,13 @@ def write_output(fhandle, output_str):
     fhandle.write(output_str)
     
 fname_read_a = input("Enter input file name: ")
-if len(fname_read_a) < 1: fname_read_a = "inputA.txt"
+if len(fname_read_a) < 1: fname_read_a = "input/inputA.txt"
 
 fname_read_b = input("Enter input file name: ")
-if len(fname_read_b) < 1: fname_read_b = "inputB.txt"
+if len(fname_read_b) < 1: fname_read_b = "input/inputB.txt"
 
 fname_write = input("Enter output file name: ")
-if len(fname_write) < 1: fname_write = "outputMatrices.txt"
+if len(fname_write) < 1: fname_write = "output/output.txt"
 
 fhandle_read_a = open(fname_read_a, "r")
 fhandle_read_b = open(fname_read_b, "r")
