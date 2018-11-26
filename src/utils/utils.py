@@ -1,3 +1,4 @@
+# Copyright (c) 2018 Mikhail Kanin
 from matrix.matrix import Matrix
 
 class MatrixFileReader:

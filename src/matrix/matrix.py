@@ -1,3 +1,4 @@
+# Copyright (c) 2018 Mikhail Kanin
 import numpy as np
 
 ntype = np.int64

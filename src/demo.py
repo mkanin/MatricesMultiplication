@@ -1,3 +1,4 @@
+# Copyright (c) 2018 Mikhail Kanin
 from matrix.matrix import Matrix
 from matrix.checker import MatrixChecker
 from matrix_multiplication.multiplication import MatrixMultiplication
