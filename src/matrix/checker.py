@@ -8,7 +8,7 @@ class MatrixChecker:
         if n_rows == 0 or n_columns == 0:
             raise ValueError("Matrix %s has empty rows or columns." % (matrix._label,))
         if n_rows != n_columns:
-            raise ValueError("The number of rows of matrix %s does not equal the number of columns." % (matrix._label))
+            raise ValueError("The number of rows of matrix %s does not equal the number of columns." % (matrix._label,))
         return n_rows
 
     def test_sizes(self, matrix_a, matrix_b):
