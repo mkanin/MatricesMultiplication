@@ -86,12 +86,15 @@ def main():
     output_file_writer.write("\n")
     output_file_writer.close()
 
-    print()
+    print("")
     print(output_str_a)
     print(output_str_b)
     print(output_str_c)
     print(output_str_cr)
     print(output_str_crs)
+    print("")
+    output_str = "Please, see the output results in the file \"{_path_to_file}\"".format(_path_to_file = fname_write)
+    print(output_str)
 
 if __name__ == "__main__":
     main()
