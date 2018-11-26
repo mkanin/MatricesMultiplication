@@ -84,6 +84,7 @@ def main():
     output_file_writer.write("\n")
     output_file_writer.write(output_str_crs)
     output_file_writer.write("\n")
+    output_file_writer.close()
 
     print()
     print(output_str_a)
