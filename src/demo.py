@@ -28,8 +28,8 @@ def main():
 
     try:
         matrix_checker.test_sizes(matrix_a, matrix_b)
-    except ValueError:
-        print(arg)
+    except ValueError as e:
+        print(e)
         exit(1)
 
     matrix_multiplication = MatrixMultiplication()
