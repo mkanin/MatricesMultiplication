@@ -1,6 +1,8 @@
 # matrix-multiplication
 This is a program for getting results of square matrix multiplication by using the different approaches, classical approach and more advanced method of multiplication, such as "Divide and Conquer", and its two version of implementation - simple recursive method and Strassen's recursive algorithm.
 
+Note: It is important for Strassen multiplication method that shape of input matrices was pow of 2, i.e. 2, 4, 8, 16 etc.
+
 # How to run the project
 You must use Python 3 to run the application.
 
