@@ -6,7 +6,7 @@ Note: It is important for Strassen multiplication method that shape of input mat
 # How to run the project
 You must use Python 3 to run the application.
 
-If you do not want to input any additional parameters, just put your input files to the directory
+If you do not want to input any additional parameters, just put your input files in the directory
 
 ./files/input
 
