@@ -1,4 +1,5 @@
 # Copyright (c) 2018 Mikhail Kanin
+import math
 
 class MatrixChecker:       
     
@@ -9,6 +10,9 @@ class MatrixChecker:
             raise ValueError("Matrix %s has empty rows or columns." % (matrix._label,))
         if n_rows != n_columns:
             raise ValueError("The number of rows of matrix %s does not equal the number of columns." % (matrix._label,))
+        size_log_2 = math.log(n_rows, 2)
+        if not size_log_2.is_integer():
+            raise ValueError("The shape of matrix must be pow of 2." % (matrix._label,))
         return n_rows
 
     def test_sizes(self, matrix_a, matrix_b):
